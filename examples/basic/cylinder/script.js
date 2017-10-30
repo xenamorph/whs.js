@@ -4,7 +4,7 @@ const app = new WHS.App([
   ...UTILS.appModules()
 ]);
 
-const sphere = new WHS.Cylinder({ // Create sphere comonent.
+const sphere = new WHS.Cylinder({ // Create sphere component.
   geometry: {
     radiusTop: 1,
     radiusBottom: 1,
